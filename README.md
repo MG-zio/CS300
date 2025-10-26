@@ -1,10 +1,11 @@
+<h1>CS 300 Portfolio</h1>
 <h3>What was the problem you were solving in the projects for this course?</h3>
-z
+In this course I designed and planned a program to help ABC University view their courses online. Then I used my outline of a design to create a program that takes course information from a .CSV file and puts it into a data structure. Then it can either print a specific course or print out the full list of courses.
 <h3>How did you approach the problem? Consider why data structures are important to understand.</h3>
-z
+My first step was to design with pseudocode how different data structures would look in a program like this. I tested out a linked list, a binary search tree, and a hash table. After writing the pseudocode, I noted the various advantages and disadvantages of the structures. For example, I noted how easy it was to create a linked list, but the run time complexity of a search function was poor. I found that binary search trees and hash tables both had an 0(log n) run time complexity or better when properly implemented, and I so chose between them for my program.
 <h3>How did you overcome any roadblocks you encountered while going through the activities or project?</h3>
-z
+To overcome roadblocks, I used cppreference.com to help me understand how to program better in C++. I don't have a ton of experience in the language so being able to look over documentation helped me immensely especially when working with filestream and stringstream.
 <h3>How has your work on this project expanded your approach to designing software and developing programs?</h3>
-z
+Big 0 analysis was something I really dived into deeply during this course. Before I had touched on it at a surface level, but through my reading and experience testing different data structures I was able to grasp how I should strive to optimize my code when anticipating scaling up my program for larger datasets/inputs.
 <h3>How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?</h3>
-z
+This course has given me practice in creating common structures that I will use in my programming career. I was required to make only the necessary comments, and avoid commenting to explain the function of every line of code. Something I have taken to heart is that my code should be mostly self explanatory both for the sake of reviewers, and also for my sake when I come back and work on the code in the future.
